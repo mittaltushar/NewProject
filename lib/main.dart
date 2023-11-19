@@ -82,7 +82,7 @@ class MyApp extends StatelessWidget {
       routes: {
         //'splash_screen': (context) => SplashScreen(),
 
-        'body': (context) => //Body2(isLogin: false,)
+        'body': (context) =>
         SignUp()
         ,
         //'body': (context) => /*VideoWidget( url: '', play: true,)*/VideoPlayerApp(),
