@@ -3,14 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  catcher
-  file_selector_windows
-  geolocator_windows
-  isar_flutter_libs
-  open_document
-  permission_handler_windows
-  share_plus
-  url_launcher_windows
+  firebase_core
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

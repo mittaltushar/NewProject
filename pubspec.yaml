@@ -1,4 +1,4 @@
-name: rama_puzle
+name: test_project
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -42,18 +42,15 @@ flutter_launcher_icons:
 dependencies:
   flutter:
     sdk: flutter
-  isar: ^3.0.0-dev.8
-  isar_generator: ^3.1.0+1
-  build_runner: ^2.3.3
-  isar_flutter_libs: 3.0.0-dev.8
+  provider: ^6.1.1
+  firebase_core: ^2.23.0
+  firebase_database: ^10.3.5
+  shared_preferences: ^2.1.1
+  fluttertoast: ^8.2.1
 
-  sqflite: ^2.0.0+3
-  path_provider: ^2.1.1
-  devicelocale: ^0.4.2
-  path: ^1.8.2
-  flutter_localizations:
-    sdk: flutter
-  intl: any
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
 
 
 
@@ -70,51 +67,6 @@ dependencies:
 
 
 
-
-  recase: ^4.1.0
-
-  chewie: ^1.5.0
-  video_player: ^2.6.1
-  http: ^0.13.0
-  fijkplayer: ^0.10.0
-
-  dropdown_button2: ^2.1.0
-  flutter_otp_text_field: ^1.1.0+2
-  json_annotation: ^4.0.1
-  fluttertoast: ^8.2.1
-  carousel_slider: ^4.2.1
-  sizer: ^2.0.15
-  syncfusion_flutter_pdf: 21.2.4
-  catcher: ^0.7.0
-  shared_preferences: ^2.1.1
-  youtube_player_flutter: ^8.0.0
-  flutter_cached_pdfview: ^0.4.2
-
-
-  image_picker: ^1.0.4
-  flutter_pdfview: ^1.2.1
-  another_flushbar: ^1.12.30
-  info_popup: ^2.4.2
-  open_file: ^3.3.2
-  share: ^2.0.1
-  # dependcies depend on plugin_platform_interface
-  url_launcher: ^6.0.0
-  webview_flutter: ^2.0.14
-  auto_size_text: ^3.0.0
-  plugin_platform_interface: ^2.1.2
-  simple_s3: ^0.3.2
-  aws_s3: ^0.1.1
-  docx_to_text: ^1.0.1
-  permission_handler: ^11.0.0
-
-  file_picker: ^5.2.5
-  easy_localization: ^3.0.2
-  cupertino_icons: ^1.0.2
-  logger: ^1.4.0
-  geolocator: ^9.0.2
-  cached_network_image: ^3.1.0
-  percent_indicator: ^4.2.3
-  open_document: ^1.0.0
 
 
 
@@ -145,83 +97,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  assets:
-    - assets/images/icon_lock.png
-    - assets/images/back_arrow.png
-    - assets/images/background_img.png
-    - assets/images/splash_img2.png
-    - assets/images/back_button.png
-    - assets/images/splash_screen.png
-    - assets/images/banner1.png
-    - assets/images/banner2.jpeg
-    - assets/images/banner3.jpeg
-    - assets/images/star.png
-    - assets/images/tree.png
-    - assets/images/user_man.png
-    - assets/images/women.png
-    - assets/images/user.png
-    - assets/images/community_quiz.jpg
-    - assets/images/human_welfare.jpg
-    - assets/images/plant_tree.jpg
-    - assets/images/regional_paheli_quiz.jpg
-    - assets/images/study_gkcurrent.png
-    - assets/images/study_paheli_gyan.png
-    - assets/images/study_regional_paheli.png
-    - assets/images/study_youtube_knowledge.png
-    - assets/images/email.png
-    - assets/images/icon_lock.png
-    - assets/images/icon_user.png
-    - assets/images/mobile_icon.png
-    - assets/images/dashboard.png
-    - assets/images/latest_quiz.png
-    - assets/images/dashboard_background.jpg
-    - assets/images/ages.png
-    - assets/images/dashboard_1.png
-    - assets/images/quizzes.png
-    - assets/images/video.png
-    - assets/images/icons/Icon feather-user.png
-    - assets/images/icons/Icon feather-info.png
-    - assets/images/icons/Icon metro-location.png
-    - assets/images/icons/Icon awesome-file-upload.png
-    - assets/images/icons/Icon awesome-mobile-alt.png
-    - assets/images/icons/Group 4830.png
-    - assets/images/icons/Icon material-smoking-rooms.png
-    - assets/images/icons/Icon material-message.png
-    - assets/images/study_material.png
-    - assets/images/chat_interaction.png
-    - assets/images/reward_display.png
-    - assets/images/contact_us.png
-    - assets/images/rewards_icon.png
-    - assets/images/faq.png
-    - assets/images/location.png
-    - assets/images/log_out.png
-    - assets/images/personal_info.png
-    - assets/images/insert_photo.png
-    - assets/images/splash_bck.png
-    - assets/images/splash_icon.png
-    - assets/images/question_mark.png
-    - assets/images/question_mark.png
-    - assets/images/star.png
-    - assets/images/dislike.png
-    - assets/images/like.png
-    - assets/images/like1.png
-    - assets/images/like2.png
-    - assets/images/share.png
-    - assets/images/comment.png
-    - assets/images/right_tick.png
-    - assets/images/recent_bck.png
-    - assets/translations/en.json
-    - assets/translations/es.json
-    - assets/translations/fr.json
 
-    - assets/images/icons/add_icon.png
-    - assets/images/icons/Group 4830.png
-    - assets/images/icons/Group 4830.png
-    - assets/images/add_icon.png
-    - assets/images/coinsImage.png
-    - assets/images/icons/Group 4830.png
-    - assets/images/icons/Icon material-smoking-rooms.png
-    - assets/images/icons/Icon material-message.png
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
