@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1062956298767",
+    "firebase_url": "https://drivecast-aff4d-default-rtdb.firebaseio.com",
+    "project_id": "drivecast-aff4d",
+    "storage_bucket": "drivecast-aff4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062956298767:android:e29246db97a1fd3783a97a",
+        "android_client_info": {
+          "package_name": "com.example.feedthenews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062956298767-r4gubl9h12qrn8ham9f79lendqrdklth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCttEO2sHj-LwbNZrQNUk6K-ooGRajOutA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062956298767-r4gubl9h12qrn8ham9f79lendqrdklth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062956298767:android:77d2a6b5a8302b7083a97a",
+        "android_client_info": {
+          "package_name": "iwnami.application.drivecast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062956298767-odet3f396uq3os0lmnq826d3trk9gveh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iwnami.application.drivecast",
+            "certificate_hash": "8ae129489bb958dfddeb701791d71bfbfcc8983e"
+          }
+        },
+        {
+          "client_id": "1062956298767-r4gubl9h12qrn8ham9f79lendqrdklth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCttEO2sHj-LwbNZrQNUk6K-ooGRajOutA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062956298767-r4gubl9h12qrn8ham9f79lendqrdklth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
